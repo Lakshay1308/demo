@@ -1,0 +1,25 @@
+i am batman
+
+git init
+git remote add origin <GIT URL>
+
+
+
+
+git restore --staged <filename> - restores the added change
+git diff <commit ID> - to see change between two change
+git reset --hard (commitID)- to delete a commit
+git branch -a - to show all current braches
+git branch <branch name>- new branch
+git switch <branch name>- switch to branch
+git checkout -b <branch name>- create a new branch and switch to it
+git pull- pulls changes from remote
+git merge <brach to be merged>- merge branch
+
+
+Stashing- Saving changes which are not commited
+git stash- save the uncommited work WIP
+git stash apply- to get back to the unsaved work
+
+
+

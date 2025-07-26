@@ -8,5 +8,23 @@ docker stop <container>- stops th image
 
 Port Mapping
 
-docker run -it <imagenae> -p <externalport>:<internalport>
+docker run -it <imagename> -p <externalport>:<internalport>
                 -p <externalport>:<internalport>: takes internal port of image and maps it to external port of local host
+
+-d- makes container run in background
+
+docker logs
+
+docker exec -it <image> bash- takes us to the image terminal
+docker exec -it <image> <command>- runs a command inside image terminal
+docker inspect- gives us information about container
+
+Dockerfile:
+blueprint that tells docker how build a image
+
+docker build -t python-hello-world . :
+              build- builds the docker image
+              -t <nameofimage>: -t is tagging, used to give name to the image
+              .: storing the file in home dir
+              
+

@@ -1,0 +1,12 @@
+docker pull <imagename>-  pulls image and download it to server
+docker images- list all the availab images
+docker run <imagename>- runs the image 
+docker ps- shows running image
+docker run -it <image name>- run the image and -it attach the terminal to image
+docker stop <container>- stops th image
+
+
+Port Mapping
+
+docker run -it <imagenae> -p <externalport>:<internalport>
+                -p <externalport>:<internalport>: takes internal port of image and maps it to external port of local host

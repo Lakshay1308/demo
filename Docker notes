@@ -25,6 +25,5 @@ blueprint that tells docker how build a image
 docker build -t python-hello-world . :
               build- builds the docker image
               -t <nameofimage>: -t is tagging, used to give name to the image
-              .: storing the file in home dir
-              
+              .: storing the file in home dir              
 
